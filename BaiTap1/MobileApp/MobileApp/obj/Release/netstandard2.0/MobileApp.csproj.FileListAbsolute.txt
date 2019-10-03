@@ -1,0 +1,14 @@
+E:\C#\BaiTap1\MobileApp\MobileApp\bin\Release\netstandard2.0\MobileApp.deps.json
+E:\C#\BaiTap1\MobileApp\MobileApp\bin\Release\netstandard2.0\MobileApp.dll
+E:\C#\BaiTap1\MobileApp\MobileApp\bin\Release\netstandard2.0\MobileApp.pdb
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\MobileApp.csprojAssemblyReference.cache
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\Views\HelloPage.xaml.g.cs
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\Views\SumPage.xaml.g.cs
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\MobileApp.csproj.CoreCompileInputs.cache
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\MobileApp.AssemblyInfoInputs.cache
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\MobileApp.AssemblyInfo.cs
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\XamlC.stamp
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\MobileApp.dll
+E:\C#\BaiTap1\MobileApp\MobileApp\obj\Release\netstandard2.0\MobileApp.pdb

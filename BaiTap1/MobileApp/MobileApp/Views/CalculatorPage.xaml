@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileApp.Views.CalculatorPage">
+    <ContentPage.Content>
+        <StackLayout HeightRequest="250">
+            <Entry Text="0" />
+
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="C" x:Name="btnC" Clicked="BtnC_Clicked" Grid.Row="0" Grid.Column="0" />
+                <Button Text="+/-" x:Name="add_divice_sub" Clicked="Add_divice_sub_Clicked" Grid.Row="0" Grid.Column="1" />
+                <Button Text="%" x:Name="divice" Clicked="Divice_Clicked" Grid.Row="0" Grid.Column="2" />
+                <Button Text="DIV" x:Name="btnDIV" Clicked="BtnDIV_Clicked" Grid.Row="0" Grid.Column="3" />
+
+
+                <Button Text="7" x:Name="btn7" Clicked="Btn7_Clicked" Grid.Row="1" Grid.Column="0" />
+                <Button Text="8" x:Name="btn8" Clicked="Btn8_Clicked" Grid.Row="1" Grid.Column="1" />
+                <Button Text="9" x:Name="btn9" Clicked="Btn9_Clicked" Grid.Row="1" Grid.Column="2" />
+                <Button Text="X" x:Name="btnX" Clicked="BtnX_Clicked" Grid.Row="1" Grid.Column="3" />
+
+
+                <Button Text="4" x:Name="btn4" Clicked="Btn4_Clicked" Grid.Row="2" Grid.Column="0" />
+                <Button Text="5" x:Name="btn5" Clicked="Btn5_Clicked" Grid.Row="2" Grid.Column="1" />
+                <Button Text="6" x:Name="btn6" Clicked="Btn6_Clicked" Grid.Row="2" Grid.Column="2" />
+                <Button Text="-" x:Name="btnSub" Clicked="BtnSub_Clicked" Grid.Row="2" Grid.Column="3" />
+
+
+                <Button Text="1" x:Name="btn1" Clicked="Btn1_Clicked" Grid.Row="3" Grid.Column="0" />
+                <Button Text="2" x:Name="btn2" Clicked="Btn2_Clicked" Grid.Row="3" Grid.Column="1" />
+                <Button Text="3" x:Name="btn3" Clicked="Btn3_Clicked" Grid.Row="3" Grid.Column="2" />
+                <Button Text="+" x:Name="btnAdd" Clicked="BtnAdd_Clicked" Grid.Row="3" Grid.Column="3" />
+
+
+                <Button Text="0" x:Name="btn0" Clicked="Btn0_Clicked" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Button Text="." x:Name="btnDot" Clicked="BtnDot_Clicked" Grid.Row="4" Grid.Column="2" />
+                <Button Text="=" x:Name="btnResult" Clicked="BtnResult_Clicked" Grid.Row="4" Grid.Column="3" />
+
+
+
+
+
+
+            </Grid>
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
