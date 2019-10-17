@@ -1,0 +1,14 @@
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.deps.json
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.dll
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.pdb
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csproj.CoreCompileInputs.cache
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfoInputs.cache
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfo.cs
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.dll
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.pdb
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\Views\ListView.xaml.g.cs
+E:\C#\Xamarin\BaiTap2\MobileApp\MobileApp\obj\Debug\netstandard2.0\Views\ListViewGroup.xaml.g.cs
