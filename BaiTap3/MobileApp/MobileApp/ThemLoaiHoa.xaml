@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileApp.ThemLoaiHoa" Title="Them Loai Hoa">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Ten Loai" Grid.Row="0" Grid.Column="0" />
+            <Entry x:Name="txtTenLoaiHoa" Grid.Row="0" Grid.Column="1" />
+            <Button Text="Ghi" x:Name="btnGhi" Clicked="BtnGhi_Clicked" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

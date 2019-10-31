@@ -1,0 +1,16 @@
+E:\C#\BaiTap3\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.deps.json
+E:\C#\BaiTap3\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.dll
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csproj.CoreCompileInputs.cache
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfoInputs.cache
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfo.cs
+E:\C#\BaiTap3\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.pdb
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.dll
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.pdb
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\ThemLoaiHoa.xaml.g.cs
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\ThemHoa.xaml.g.cs
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\HienThiLoaiHoa.xaml.g.cs
+E:\C#\BaiTap3\MobileApp\MobileApp\obj\Debug\netstandard2.0\HienThiHoaTheoLoai.xaml.g.cs

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileApp.ThemHoa" Title="Thêm Hoa">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="50"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Mã Loại" Grid.Row="0" Grid.Column="0" />
+            <Picker x:Name="listLoaiHoa" Grid.Row="0" Grid.Column="1"
+                    Title="Chọn loại hoa"
+                    ItemsSource="{Binding listLoaiHoa}"
+                    ItemDisplayBinding="{Binding TenLoai}"
+                    SelectedItem="{Binding MaLoai}">
+
+            </Picker>
+
+            <Label Text="Tên Hoa" Grid.Row="1" Grid.Column="0" />
+            <Entry x:Name="txtTenHoa" Grid.Row="1" Grid.Column="1" />
+
+            <Label Text="Hình" Grid.Row="2" Grid.Column="0" />
+            <Entry x:Name="txtHinh" Grid.Row="2" Grid.Column="1" />
+
+            <Label Text="Gía Bán" Grid.Row="3" Grid.Column="0" />
+            <Entry x:Name="txtGiaBan" Grid.Row="3" Grid.Column="1" />
+
+            <Label Text="Mô Tả" Grid.Row="4" Grid.Column="0" />
+            <Editor x:Name="txtMoTa" HeightRequest="200"  Grid.Row="4" Grid.Column="1" />
+
+            <Button x:Name="btnThemHoa" Clicked="BtnThemHoa_Clicked" Text="Thêm Hoa" Grid.Row="5" Grid.Column="0" />
+            <Button Text="Xóa Hoa" x:Name="btnXoaHoa" Clicked="BtnXoaHoa_Clicked" Grid.Row="5" Grid.Column="1" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
