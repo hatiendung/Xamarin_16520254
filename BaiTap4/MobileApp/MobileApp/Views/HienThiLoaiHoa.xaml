@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:viewmode ="clr-namespace:MobileApp.ViewModels"
+             x:Class="MobileApp.Views.HienThiLoaiHoa">
+    <ContentPage.BindingContext>
+        <viewmode:LoaiHoaViewModel></viewmode:LoaiHoaViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Ten Loai" Grid.Row="0" Grid.Column="0" />
+            <Entry Text="{Binding LoaiHoa.TenLoai, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" />
+            <Button Text="Insert" VerticalOptions="Center" Grid.Row="0" Grid.Column="1" Command="{Binding AddLoaiHoa}" />
+            <Button Text="Update" VerticalOptions="Center" Grid.Row="1" Grid.Column="1" Command="{Binding UpdateLoaiHoa}" />
+
+
+            <ListView x:Name="lstLoaiHoa" VerticalOptions="Center"
+                      ItemsSource="{Binding LoaiHoaList}" SelectedItem="{Binding LoaHoa, Mode=TwoWay}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding MaLoai, Mode=TwoWay}" Detail="{Binding TenLoai, Mode=TwoWay}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

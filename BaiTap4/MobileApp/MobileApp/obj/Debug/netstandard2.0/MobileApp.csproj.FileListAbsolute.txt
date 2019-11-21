@@ -1,0 +1,14 @@
+E:\C#\MobileApp\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.deps.json
+E:\C#\MobileApp\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.dll
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.csprojAssemblyReference.cache
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfoInputs.cache
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.AssemblyInfo.cs
+E:\C#\MobileApp\MobileApp\MobileApp\bin\Debug\netstandard2.0\ref\MobileApp.dll
+E:\C#\MobileApp\MobileApp\MobileApp\bin\Debug\netstandard2.0\MobileApp.pdb
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\Views\HienThiLoaiHoa.xaml.g.cs
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.dll
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\ref\MobileApp.dll
+E:\C#\MobileApp\MobileApp\MobileApp\obj\Debug\netstandard2.0\MobileApp.pdb
